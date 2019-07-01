@@ -411,13 +411,13 @@ window.PopUp = {
 
     document
       .querySelector('#toggl-button-project-placeholder')
-      .closest('.Dialog__field')
+      .closest('.TB__Dialog__field')
       .addEventListener('focus', (e) => {
         PopUp.$projectAutocomplete.openDropdown();
       });
     document
       .querySelector('#toggl-button-tag-placeholder')
-      .closest('.Dialog__field')
+      .closest('.TB__Dialog__field')
       .addEventListener('focus', (e) => {
         PopUp.$tagAutocomplete.openDropdown();
       });
